@@ -2,6 +2,7 @@
 
 # Compilation
 $ g++ -ggdb ImageMorphing.cpp `pkg-config --cflags --libs opencv`
+
 $./a.out
 
 # About
@@ -12,4 +13,7 @@ and write this command in shell
 
 
 $ sudo apt-get install imagemagick
-$ convert -resize 50% -delay 10 -loop 0 image_{0..n}.jpg output.gif //where n is number images.
+
+$ convert -resize 50% -delay 10 -loop 0 image_{0..n}.jpg output.gif 
+
+//where n is number images.
